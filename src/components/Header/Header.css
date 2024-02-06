@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: #fff;
+  opacity: .8;
+
+  > a {
+    text-decoration: none;
+
+    > h2 {
+      color: #737171;
+      font-size: 24px;
+    }
+  }
+
+  > div {
+
+    > a {
+      color: #34495E;
+      font-size: 16px;
+      margin-inline-start: 20px;
+    }
+  }
+}

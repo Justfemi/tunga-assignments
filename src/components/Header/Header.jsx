@@ -1,4 +1,5 @@
-import React from 'react'
+// import React from 'react'
+import './Header.css';
 
 const Header = () => {
   return (
@@ -14,6 +15,8 @@ const Header = () => {
         <a>BLOG</a>
         <a>CONTACT ME</a>
       </div>
+
+      {/* search icon */}
     </header>
   )
 }
