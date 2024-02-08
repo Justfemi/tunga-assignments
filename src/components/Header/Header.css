@@ -5,13 +5,16 @@
 }
 
 header {
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 40px;
   background-color: #fff;
   opacity: .8;
+  position: sticky;
+  top: 0;
+  /* z-index: 1000; */
 
   > a {
     text-decoration: none;
@@ -28,6 +31,22 @@ header {
       color: #34495E;
       font-size: 16px;
       margin-inline-start: 20px;
+      cursor: pointer;
+
+      &:hover {
+        color: #f08c79;
+      }
+    }
+
+    > .search-icon {
+      color: #f08c79;
+      margin-inline-start: 30px;
+      font-size: 20px;
+  
+      &:hover {
+        color: #34495E;
+      }
     }
   }
+
 }

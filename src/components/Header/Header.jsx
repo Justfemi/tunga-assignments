@@ -1,5 +1,6 @@
 // import React from 'react'
 import './Header.css';
+import { FiSearch } from "react-icons/fi";
 
 const Header = () => {
   return (
@@ -14,9 +15,9 @@ const Header = () => {
         <a>DROPDOWN</a>
         <a>BLOG</a>
         <a>CONTACT ME</a>
-      </div>
 
-      {/* search icon */}
+        <FiSearch className="search-icon"/>
+      </div>
     </header>
   )
 }
